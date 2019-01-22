@@ -47,6 +47,12 @@ $paragraph-color: #777777;
     }
   }
 
+  &-display--sm-none {
+    @media screen and (max-width: 480px) {
+      display: none;
+    }
+  }
+
   &-float--clearfix {
     &:after {
       display: block;
@@ -394,8 +400,6 @@ $paragraph-color: #777777;
         font-size: 13px;
         font-weight: 400;
         white-space: nowrap;
-        color: #000000;
-        text-decoration: underline;
 
         &:hover {
           text-decoration: none;
