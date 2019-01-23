@@ -9,10 +9,10 @@ $btn-primary-hover-border-color: #79c046;
 
 $btn-secondary-background-color: #ffffff;
 $btn-secondary-color: #333333;
-$btn-secondary-border-color: #333333;
+$btn-secondary-border-color: #ffffff;
 $btn-secondary-hover-background-color: #ffffff;
 $btn-secondary-hover-color: #555555;
-$btn-secondary-hover-border-color: #555555;
+$btn-secondary-hover-border-color: #ffffff;
 
 $border-color: #dddddd;
 $paragraph-color: #777777;
@@ -165,6 +165,7 @@ $paragraph-color: #777777;
       color: $btn-secondary-color;
       background-color: $btn-secondary-background-color;
       border-color: $btn-secondary-border-color;
+      text-decoration: underscore;
 
       &:hover {
         color: $btn-secondary-hover-color;
